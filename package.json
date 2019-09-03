@@ -114,6 +114,7 @@
         "yargs": "^13.2.4"
     },
     "devDependencies": {
+        "@propelleraero/cesium": "^1.58.0",
         "cloc": "^2.5.0",
         "coveralls": "^3.0.4",
         "eslint": "^6.0.0",
@@ -125,6 +126,9 @@
         "nyc": "^14.1.1",
         "open": "^6.3.0",
         "requirejs": "^2.3.6"
+    },
+    "peerDependencies": {
+        "@propelleraero/cesium": "1.x"
     },
     "scripts": {
         "jsdoc": "jsdoc ./lib -R ./README.md -d doc",
