@@ -1,7 +1,12 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "obj2gltf",
   "version": "3.1.5",
+=======
+  "name": "@propelleraero/obj2gltf",
+  "version": "3.1.2",
+>>>>>>> pack name
   "description": "Convert OBJ model format to glTF",
   "license": "Apache-2.0",
   "contributors": [
