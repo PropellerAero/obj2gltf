@@ -160,6 +160,11 @@ const argv = yargs
       type: "boolean",
       default: defaults.triangleWindingOrderSanitization,
     },
+    ignoreBadNormals: {
+      describe: "ignore bad normals",
+      type: "boolean",
+      default: defaults.ignoreBadNormals,
+    },
   })
   .parse(args);
 
@@ -216,6 +221,7 @@ const options = {
   inputUpAxis: argv.inputUpAxis,
   outputUpAxis: argv.outputUpAxis,
   triangleWindingOrderSanitization: argv.triangleWindingOrderSanitization,
+  ignoreBadNormals: argv.ignoreBadNormals,
 };
 
 console.time("Total");
