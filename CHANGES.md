@@ -1,5 +1,15 @@
 # Change Log
 
+### 3.1.4 - 2021-10-15
+
+- Unlocked CesiumJS package now that CesiumJS 1.86.1 is released with a fix for Node 16. [#270](https://github.com/CesiumGS/obj2gltf/pull/270)
+
+### 3.1.3 - 2021-09-15
+
+- Fixed bug where missing .mtl files were no longer being handled gracefully in Node 16. [#268](https://github.com/CesiumGS/obj2gltf/pull/268)
+- Fixed parsing models with tab separated elements like those exported from Tinkercad. [#259](https://github.com/CesiumGS/obj2gltf/pull/259)
+- Locked CesiumJS to 1.84.0 to prevent "ReferenceError: Blob is not defined" error when running obj2gltf.
+
 ### 3.1.2 - 2021-08-02
 
 - Removed `minFilter` and `magFilter` from generated samplers so that runtime engines can use their preferred texture filtering. [#240](https://github.com/CesiumGS/obj2gltf/pull/240)
