@@ -1,4 +1,4 @@
-# OBJ2GLTF
+# OBJ2GLTF DEPRECATED
 
 Convert OBJ assets to [glTF](https://www.khronos.org/gltf) 2.0.
 
